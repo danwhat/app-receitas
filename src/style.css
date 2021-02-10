@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap') ;
+
+body {
+  background: url('./images/img_bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.containerSize {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 360px;
+}
+
+.recipeBox {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 140px;
+}
+
+.recipeBox button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  width: 130px;
+}
+
+.recipeBox img {
+  border-radius: 5px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.25);
+  margin-top: 5px;
+  width: 130px;
+}
+
+.buttonPattern {
+  background: white;
+  border: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 42px;
+  margin: 5px 10px;
+  width: 140px;
+}
+
+.containerFull {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 360px;
+}
+
+.containerMargin {
+  width: 280px;
+}
+
+.containerMargin p {
+  text-align: justify;
+}
+
+.fullImg {
+  margin-bottom: 60px;
+  width: 360px;
+}
+
+.containerFull h1 {
+  display: flex;
+  font-family: Jomhuria , cursive;
+  font-size: 48px;
+  justify-content: center;
+  line-height: 20px;
+}
+
+.containerFull h2 {
+  color: grey;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.shareBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.shareBox img {
+  width: 60px;
+}
+
+.buttonBig {
+  background: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 42px;
+  margin: 5px 40px;
+  width: 280px;
+}

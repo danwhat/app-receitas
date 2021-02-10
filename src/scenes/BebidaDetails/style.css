@@ -1,0 +1,22 @@
+:root {
+
+  --zero: 0;
+}
+
+.recomendations {
+  height: 70px;
+  overflow: auto;
+}
+
+.startRecipe {
+  background-color: #32b35d;
+  border: none;
+  bottom: var(--zero);
+  color: white;
+  font-size: 18px;
+  height: 54px;
+  left: 0;
+  position: fixed;
+  text-transform: uppercase;
+  width: 360px;
+}
